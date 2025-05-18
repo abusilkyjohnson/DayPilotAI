@@ -1,5 +1,14 @@
 # DayPilotAI
 
-Introduction
+# Introduction:
 
-# Feactures 
+# Feactures:
+
+# Technologies:
+  **Api**
+
+# Development Setup:
+
+# Contributors:
+
+# Project Status:
