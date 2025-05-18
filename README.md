@@ -25,10 +25,27 @@ This AI system acts as the ears of the app turning casual voice input into actio
   4. 🔁 The response is sent back to the Android app to generate the task.
 
 ## Technologies:
-  **Api**:
+- **Python 3.12.8** – Core programming language used for AI logic and API
+- **Tensor Flow** – Deep learning model integration
+- **JSON** – Data format for request/response between app and server
+  
+  <h3 align="center">API</h3>
+
+**Flask** – Lightweight Python framework for building RESTful APIs
+-  Flask receives incoming POST requests from the Android app.
+- It parses the JSON data that contains the user's spoken input (converted to text by android built-in MicrophoneX).
+- The text is passed to the AI model for intent parsing and task extraction.
+- Flask then sends the model’s response back to the app in structured JSON format.
+ 
+All of this logic is contained in the Flask app within this repository.
+
+## Installation:
+
 
 ## Development Setup:
 
 ## Contributors:
+Abubakar Sadiq Mohammed
 
-## Project Status:
+## Project Status: 
+In development 
