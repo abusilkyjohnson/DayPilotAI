@@ -1,0 +1,14 @@
+# Ignore Python virtual environments
+daypilotvenv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment variables
+.env
+.env.local
+
+# Ignore system files
+.DS_Store
+Thumbs.db
