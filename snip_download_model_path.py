@@ -14,4 +14,4 @@ model = AutoModelForSequenceClassification.from_pretrained(nlp_model_path_abu)
 tokenizer.save_pretrained(local_path_abu)
 model.save_pretrained(local_path_abu)
 
-print(f"Successfully saved tokenizer and model to {local_path_abu}")
+# print(f"Successfully saved tokenizer and model to {local_path_abu}")
